@@ -24,12 +24,11 @@
  */
 
 Package.describe({
-    name: 'jalik:ufs-gridfs',
+    name: 'awli:ufs-gridfs',
     version: '0.2.1',
-    author: 'rodrigoknascimento@gmail.com',
+    author: 'ofaderbauer@gmail.com',
     summary: 'GridFS store for UploadFS',
-    homepage: 'https://github.com/jalik/jalik-ufs-gridfs',
-    git: 'https://github.com/jalik/jalik-ufs-gridfs.git',
+    git: 'https://github.com/awsmoli/jalik-ufs-gridfs.git',
     documentation: 'README.md',
     license: 'MIT'
 });
@@ -39,6 +38,6 @@ Package.onUse(function (api) {
     api.use('ecmascript@0.6.1');
     api.use('underscore@1.0.10');
     api.use('mongo@1.1.14');
-    api.use('jalik:ufs@0.7.4_1');
+    api.use('awli:ufs@0.7.4_1');
     api.mainModule('ufs-gridfs.js');
 });
