@@ -22,10 +22,18 @@
  * SOFTWARE.
  *
  */
-import {_} from "meteor/underscore";
-import {check} from "meteor/check";
-import {Meteor} from "meteor/meteor";
-import {UploadFS} from "meteor/jalik:ufs";
+import {
+    _
+} from "meteor/underscore";
+import {
+    check
+} from "meteor/check";
+import {
+    Meteor
+} from "meteor/meteor";
+import {
+    UploadFS
+} from "meteor/awli:ufs";
 
 
 /**
